@@ -2,6 +2,8 @@
 
 **Fourier-based Unsupervised Domain Adaptation nodes for ComfyUI.**
 
+![FUDA Adaptation Example](ScrShot%2022.png)
+
 Implements the FUDA method from:
 
 > *Boosting unsupervised domain adaptation: A Fourier approach*
@@ -106,6 +108,16 @@ No additional packages are needed beyond what ComfyUI already installs.
 | Python | ≥ 3.10 |
 | PyTorch | ≥ 2.0 (for `torch.fft`) |
 | NumPy | any recent |
+
+---
+
+## Screenshots
+
+![Node graph overview](ScrShot%2022.png)
+
+![FUDA adaptation result](ScrShot%2023.png)
+
+![FUDA + Channel Attention result](ScrShot%2024.png)
 
 ---
 
