@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-fuda"
+version = "1.0.0"
+description = "FUDA: Fourier-based Unsupervised Domain Adaptation nodes for ComfyUI"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/your-repo/comfyui-fuda"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "FUDA – Fourier Domain Adaptation"
+Icon = ""
